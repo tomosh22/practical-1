@@ -43,13 +43,19 @@ class MyApp(ShowBase):
         return Task.cont
 spinCamera = True
 drawPanda = True
-helpMenu = False
+helpMenu = True
 print("Spin Camera?")
 if input() != "yes":
     spinCamera = False
 print("Draw Panda?")
 if input() != "yes":
     drawPanda = False
+print("Help Menu?")
+if input() != "yes":
+    helpMenu = False
+if helpMenu:
+    print("Help Menu")
+
 app = MyApp()
 app.run()
 
