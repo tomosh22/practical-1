@@ -18,3 +18,9 @@ I have never used GitLab but it seems to work in a very similar way so I will co
 I have a small amount of experience with pip to install 3rd party libraries but I have never heard of pipenv before. 3rd party libraries are a crucial part of programming so I
 am sure I will gain sufficient experience using this. Pipenv was not functioning correctly so I had to install the panda3d package manually using the PyCharm
 interpreter settings.
+
+**The keyboard Library**
+
+In the past I have just used the python console's input() function to gain input from the user, but this was not appropriate in this situation
+so I was forced to use another method of obtaining input. The keyboard library's .is_pressed() function makes it very easy to detect whether
+or not a specific key is up or down in real time.
